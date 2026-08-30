@@ -1,0 +1,9 @@
+{
+    "model_version": "v1",
+    "algorithm": "XGBoost",
+    "training_samples": 5625,
+    "test_samples": 1407,
+    "features_before_encoding": 19,
+    "features_after_encoding": 45,
+    "accuracy": 0.7903340440653873
+}

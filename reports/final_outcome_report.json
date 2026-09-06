@@ -1,0 +1,61 @@
+{
+    "model_performance": {
+        "accuracy": 0.7896,
+        "precision": 0.6258,
+        "recall": 0.5187,
+        "f1_score": 0.5673
+    },
+    "drift_analysis": {
+        "drift_score": 0.0304
+    },
+    "performance_risk": 0.0327,
+    "arcs": {
+        "arcs_score": 0.688,
+        "retraining_required": false
+    },
+    "xai": {
+        "top_features": [
+            {
+                "feature": "tenure",
+                "mean_abs_shap": 0.06510675281529267
+            },
+            {
+                "feature": "InternetService_Fiber optic",
+                "mean_abs_shap": 0.05272704394405
+            },
+            {
+                "feature": "TotalCharges",
+                "mean_abs_shap": 0.041336246793135974
+            },
+            {
+                "feature": "Contract_Two year",
+                "mean_abs_shap": 0.03950980110925221
+            },
+            {
+                "feature": "PaymentMethod_Electronic check",
+                "mean_abs_shap": 0.03186560892707954
+            },
+            {
+                "feature": "Contract_One year",
+                "mean_abs_shap": 0.022877196266568936
+            },
+            {
+                "feature": "MonthlyCharges",
+                "mean_abs_shap": 0.02198538563051504
+            },
+            {
+                "feature": "OnlineSecurity_Yes",
+                "mean_abs_shap": 0.021155965600614352
+            },
+            {
+                "feature": "TechSupport_Yes",
+                "mean_abs_shap": 0.01723557824136424
+            },
+            {
+                "feature": "PaperlessBilling_Yes",
+                "mean_abs_shap": 0.013350256566373744
+            }
+        ]
+    },
+    "final_outcome": "PERFORMANCE IMPROVEMENT NEEDED"
+}
